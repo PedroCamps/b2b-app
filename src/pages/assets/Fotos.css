@@ -1,0 +1,63 @@
+
+
+
+
+@media (max-width: 768px) {
+  .phases {
+    padding-left: 20px; /* Adiciona uma margem interna de 20px */
+    padding-right: 20px; /* Adiciona uma margem interna de 20px */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura total */
+  }
+  
+  .media{
+    font-size: 13px;
+  }
+
+  
+  
+  
+  
+}
+
+/* Estilo padrão para a imagem desktop */
+.featured-image-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Oculta a imagem desktop e exibe a imagem mobile */
+  .featured-image {
+    display: none;
+  }
+  
+  .featured-image-mobile {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+  }
+
+
+}
+
+
+/* Estilo padrão para a imagem desktop */
+.fluxograma-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Oculta a imagem desktop e exibe a imagem mobile */
+  .fluxograma-desktop {
+    display: none;
+  }
+  
+  .fluxograma-mobile {
+    display: block;
+    padding-bottom: 20px;
+
+  }
+
+  .linha{
+    line-height: 1.2;
+  }
+}

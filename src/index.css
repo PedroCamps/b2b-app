@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.backphases{
+    background: url('./Backgroundphases.png');
+    background-size: cover;
+}
+
+.backhotel{
+    background: url('./Cama.png');
+    background-size: cover;
+}
+

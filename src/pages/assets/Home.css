@@ -1,9 +1,16 @@
 .home {
   background-image: url("./../../assets/Background1.png");
-  background-size: cover; /* Adjusts the size of the image */
+  background-size:cover; /* Adjusts the size of the image */
   background-attachment: fixed; /* Keeps the image fixed in place */
   background-position: center; /* Centers the image */
 }
+
+@media (max-width: 768px) {
+  .home {
+    background-size: 100vh;
+  }
+}
+
 .phase-1 {
   background: url("./../../assets/phase1.jpg"), #000000ab;
   background-size: cover; /* Adjusts the size of the image */
